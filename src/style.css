@@ -1,0 +1,77 @@
+h1,
+p {
+  font-family: Lato;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  display: grid;
+  grid-template-rows: 40px 40px auto 40px;
+}
+
+.headerMain {
+  background-color: rgb(195, 216, 10);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.headerMain div:hover {
+  outline: 2px solid white;
+  cursor: pointer;
+}
+
+.FooterMain {
+  background-color: aquamarine;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentMain {
+  background-color: rgb(228, 221, 212);
+  border: 1px solid black;
+  margin: 2px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.contentMain .cntDetails div {
+  border: 1px solid lightgoldenrodyellow;
+  border-radius: 5px;
+  padding: 5px;
+}
+.contentMain .cntDetails {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+.contentMain .cntPrice {
+  font-weight: bolder;
+  color: red;
+  /* text-align: center; */
+}
+.contentMain .cntBtn {
+  width: 20%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.searchMain {
+  width: 100%;
+}
+.searchMain input {
+  width: 80%;
+  height: 30px;
+  padding-left: 20px;
+  margin: 5px;
+  margin-left: 30px;
+  border-radius: 10px;
+  border: 1px solid green;
+}
