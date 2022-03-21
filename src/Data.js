@@ -65,10 +65,10 @@ let data = [
   },
   {
     id: 10,
-    title: 'Color Green withDimond Shape',
-    name: "Nokia",
-    price: 19999,
-    ram: '8GB',
+    title: 'Color NavyBlue Dust Proof',
+    name: "Moto-G",
+    price: 39499,
+    ram: '16GB',
   },
 ];
 
